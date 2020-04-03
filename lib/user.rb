@@ -3,6 +3,7 @@ class User
   attr_reader :first_name, :last_name
   def name=(first_name,last_name)
     @first_name, @last_name = first_name, last_name
+  end
   def name
     @first_name
     @last_name
